@@ -32,17 +32,32 @@
   <link href="assets/css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+
+   <!-- Added for Proud Customer Section -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/custom-animation.css">
+  <link rel="stylesheet" href="js/plugin/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="js/plugin/owl/owl.theme.css">
+  <link rel="stylesheet" href="js/plugin/magnific/magnific-popup.css">
+  <link href="js/plugin/revolution/css/settings.css" rel="stylesheet" type="text/css">
+  <link href="js/plugin/revolution/css/layers.css" rel="stylesheet" type="text/css">
+  <link href="js/plugin/revolution/css/navigation.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/style.css">
+   <!-- Added for Proud Customer Section Ended -->
+
 </head>
 
 <body>
 
-  <!-- <div id="load">
+   <div id="load">
     <div class="loader_wrapper">
       <div class="loader">
     <img src="assets/img/loader.gif" alt="loader">	
       </div>
   </div> 
-  </div> -->
+  </div> 
 
   <!-- ======= Header ======= -->
     <!-- <div class="container d-flex align-items-center justify-content-between"> -->
@@ -226,446 +241,438 @@
     <!-- End About Section -->
     
 <!-- ======= Bicycle Section ======= -->
-<section id="portfolio" class="portfolio">
+ <section id="portfolio" class="portfolio">
   <div class="container" data-aos="fade-up">
 
     <div class="section-title">
       <h2>Bicycles</h2>
       <p>Check out our Top Branded Bicycles</p>
     </div>
-
+</div>
     <div class="row" data-aos="fade-up" data-aos-delay="100">
-      <div class="col-lg-12">
+      <div id="myBtnContainer" class="col-lg-12">
         <ul id="portfolio-flters">
-          <li data-filter="*" class="filter-active">All</li>
-          <li data-filter=".filter-app">Girls</li>
-          <li data-filter=".filter-card">Boys</li>
-          <li data-filter=".filter-web">Kids</li>
+            
+          <li data-filter=".filter-app" class="filter-active">
+            <button class="btn" onclick="filterSelection('e-bike')"> E-Bike</button>
+          </li>
+          <li data-filter=".filter-card">
+            <button class="btn" onclick="filterSelection('mtb')"> Mountain Bike</button>
+          </li>
+          <li data-filter=".filter-web">
+            <button class="btn" onclick="filterSelection('ftb')"> Fat Tyre Bike</button>
+          </li>
+          <li data-filter=".filter-web">
+            <button class="btn" onclick="filterSelection('city')">Hybrid Bike</button>
+          </li>
+          <li data-filter=".filter-web">
+            <button class="btn" onclick="filterSelection('kids')">Little Champ Bike</button>
+          </li>
+          <li data-filter=".filter-web">
+            <button class="btn" onclick="filterSelection('road')">Road Bike</button>
+          </li>
         </ul>
       </div>
     </div>
 
     <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-        <div class="portfolio-wrap">
-          <img src="assets/img/portfolio/girl (1).jpg" class="img-fluid" alt="">
-          <div class="portfolio-links">
-            <a href="assets/img/portfolio/girl (1).jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
-          </div>
-          <div class="portfolio-info">
-            <h4>Zoom-1</h4>
-            <p>Zoom-in</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-        <div class="portfolio-wrap">
-          <img src="assets/img/portfolio/girl (2).jpg" class="img-fluid" alt="">
-          <div class="portfolio-links">
-            <a href="assets/img/portfolio/girl (2).jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
-          </div>
-          <div class="portfolio-info">
-            <h4>Zoom-1</h4>
-            <p>Zoom-in</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-        <div class="portfolio-wrap">
-          <img src="assets/img/portfolio/girl (3).jpg" class="img-fluid" alt="">
-          <div class="portfolio-links">
-            <a href="assets/img/portfolio/girl (3).jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
-          </div>
-          <div class="portfolio-info">
-            <h4>Zoom-1</h4>
-            <p>Zoom-in</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-        <div class="portfolio-wrap">
-          <img src="assets/img/portfolio/girl (4).jpg" class="img-fluid" alt="">
-          <div class="portfolio-links">
-            <a href="assets/img/portfolio/girl (4).jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
-          </div>
-          <div class="portfolio-info">
-            <h4>Zoom-1</h4>
-            <p>Zoom-in</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-        <div class="portfolio-wrap">
-          <img src="assets/img/portfolio/girl (5).jpg" class="img-fluid" alt="">
-          <div class="portfolio-links">
-            <a href="assets/img/portfolio/girl (5).jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
-          </div>
-          <div class="portfolio-info">
-            <h4>Zoom-1</h4>
-            <p>Zoom-in</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-        <div class="portfolio-wrap">
-          <img src="assets/img/portfolio/girl (6).jpg" class="img-fluid" alt="">
-          <div class="portfolio-links">
-            <a href="assets/img/portfolio/girl (6).jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
-          </div>
-          <div class="portfolio-info">
-            <h4>Zoom-1</h4>
-            <p>Zoom-in</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-        <div class="portfolio-wrap">
-          <img src="assets/img/portfolio/girl (7).jpg" class="img-fluid" alt="">
-          <div class="portfolio-links">
-            <a href="assets/img/portfolio/girl (7).jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
-          </div>
-          <div class="portfolio-info">
-            <h4>Zoom-1</h4>
-            <p>Zoom-in</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-        <div class="portfolio-wrap">
-          <img src="assets/img/portfolio/girl (8).jpg" class="img-fluid" alt="">
-          <div class="portfolio-links">
-            <a href="assets/img/portfolio/girl (8).jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
-          </div>
-          <div class="portfolio-info">
-            <h4>Zoom-1</h4>
-            <p>Zoom-in</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-        <div class="portfolio-wrap">
-          <img src="assets/img/portfolio/girl (1).jpg" class="img-fluid" alt="">
-          <div class="portfolio-links">
-            <a href="assets/img/portfolio/girl (1).jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
-          </div>
-          <div class="portfolio-info">
-            <h4>Zoom-1</h4>
-            <p>Zoom-in</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-        <div class="portfolio-wrap">
-          <img src="assets/img/portfolio/kid (1).jpg" class="img-fluid" alt="">
-          <div class="portfolio-links">
-            <a href="assets/img/portfolio/kid (1).jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
-            
-          </div>
-          <div class="portfolio-info">
-            <h4>Zoom-in</h4>
-            <p>Zoom-in</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-        <div class="portfolio-wrap">
-          <img src="assets/img/portfolio/kid (2).jpg" class="img-fluid" alt="">
-          <div class="portfolio-links">
-            <a href="assets/img/portfolio/kid (2).jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
-            
-          </div>
-          <div class="portfolio-info">
-            <h4>Zoom-in</h4>
-            <p>Zoom-in</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-        <div class="portfolio-wrap">
-          <img src="assets/img/portfolio/kid (3).jpg" class="img-fluid" alt="">
-          <div class="portfolio-links">
-            <a href="assets/img/portfolio/kid (3).jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
-            
-          </div>
-          <div class="portfolio-info">
-            <h4>Zoom-in</h4>
-            <p>Zoom-in</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-        <div class="portfolio-wrap">
-          <img src="assets/img/portfolio/kid (4).jpg" class="img-fluid" alt="">
-          <div class="portfolio-links">
-            <a href="assets/img/portfolio/kid (4).jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
-            
-          </div>
-          <div class="portfolio-info">
-            <h4>Zoom-in</h4>
-            <p>Zoom-in</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-        <div class="portfolio-wrap">
-          <img src="assets/img/portfolio/kid (5).jpg" class="img-fluid" alt="">
-          <div class="portfolio-links">
-            <a href="assets/img/portfolio/kid (5).jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
-            
-          </div>
-          <div class="portfolio-info">
-            <h4>Zoom-in</h4>
-            <p>Zoom-in</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-        <div class="portfolio-wrap">
-          <img src="assets/img/portfolio/kid (6).jpg" class="img-fluid" alt="">
-          <div class="portfolio-links">
-            <a href="assets/img/portfolio/kid (6).jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
-            
-          </div>
-          <div class="portfolio-info">
-            <h4>Zoom-in</h4>
-            <p>Zoom-in</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-        <div class="portfolio-wrap">
-          <img src="assets/img/portfolio/kid (7).jpg" class="img-fluid" alt="">
-          <div class="portfolio-links">
-            <a href="assets/img/portfolio/kid (7).jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
-            
-          </div>
-          <div class="portfolio-info">
-            <h4>Zoom-in</h4>
-            <p>Zoom-in</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-        <div class="portfolio-wrap">
-          <img src="assets/img/portfolio/kid (8).jpg" class="img-fluid" alt="">
-          <div class="portfolio-links">
-            <a href="assets/img/portfolio/kid (8).jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
-            
-          </div>
-          <div class="portfolio-info">
-            <h4>Zoom-in</h4>
-            <p>Zoom-in</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-        <div class="portfolio-wrap">
-          <img src="assets/img/portfolio/kid (9).jpg" class="img-fluid" alt="">
-          <div class="portfolio-links">
-            <a href="assets/img/portfolio/kid (9).jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
-            
-          </div>
-          <div class="portfolio-info">
-            <h4>Zoom-in</h4>
-            <p>Zoom-in</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+      <!-- E-Bike -->
+      <div class="col-lg-4 col-md-6 portfolio-item filter-app columns e-bike">
         <div class="portfolio-wrap">
           <img src="assets/img/portfolio/boy-1.jpg" class="img-fluid" alt="">
           <div class="portfolio-links">
-            <a href="assets/img/portfolio/boy-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
-            
+            <a href="assets/img/portfolio/boy-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="MERAKI UX 26T"><i class="bi bi-plus"></i></a>
           </div>
           <div class="portfolio-info">
-            <h4>Zoom-in</h4>
-            <p>Zoom-in</p>
+            <h4>MERAKI UX 26T</h4>
+            <p>6.36 Ah Panasonic cells with 2000 discharge cycles</p>
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+      
+      <div class="col-lg-4 col-md-6 portfolio-item filter-web columns e-bike">
         <div class="portfolio-wrap">
-          <img src="assets/img/portfolio/boy-2.png" class="img-fluid" alt="">
+          <img src="assets/img/portfolio/boy-2.jpg" class="img-fluid" alt="">
           <div class="portfolio-links">
-            <a href="assets/img/portfolio/boy-2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
+            <a href="assets/img/portfolio/boy-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="MERAKI 27.5T"><i class="bi bi-plus"></i></a>
             
           </div>
           <div class="portfolio-info">
-            <h4>Zoom-in</h4>
-            <p>Zoom-in</p>
+            <h4>MERAKI 27.5T</h4>
+            <p>17" Carbon Hi-Tensile Steel Frame</p>
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+    
+      <div class="col-lg-4 col-md-6 portfolio-item filter-card columns e-bike">
         <div class="portfolio-wrap">
           <img src="assets/img/portfolio/boy-3.jpg" class="img-fluid" alt="">
           <div class="portfolio-links">
-            <a href="assets/img/portfolio/boy-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
+            <a href="assets/img/portfolio/boy-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="E-TECH"><i class="bi bi-plus"></i></a>
             
           </div>
           <div class="portfolio-info">
-            <h4>Zoom-in</h4>
-            <p>Zoom-in</p>
+            <h4>E-TECH</h4>
+            <p>IP67 5.8 Ah Li-Ion Intube battery. Water & dust proof.</p>
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+      <!-- E-Bike End-->
+
+        <!-- MTB -->
+      <div class="col-lg-4 col-md-6 portfolio-item filter-card columns mtb">
         <div class="portfolio-wrap">
-          <img src="assets/img/portfolio/boy-4.png" class="img-fluid" alt="">
+          <img src="assets/img/portfolio/mtb-1.jpg" class="img-fluid" alt="">
           <div class="portfolio-links">
-            <a href="assets/img/portfolio/boy-4.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
+            <a href="assets/img/portfolio/mtb-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="WOLVERINE 29T"><i class="bi bi-plus"></i></a>
             
           </div>
           <div class="portfolio-info">
-            <h4>Zoom-in</h4>
-            <p>Zoom-in</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-        <div class="portfolio-wrap">
-          <img src="assets/img/portfolio/boy-5.jpg" class="img-fluid" alt="">
-          <div class="portfolio-links">
-            <a href="assets/img/portfolio/boy-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
-            
-          </div>
-          <div class="portfolio-info">
-            <h4>Zoom-in</h4>
-            <p>Zoom-in</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-        <div class="portfolio-wrap">
-          <img src="assets/img/portfolio/boy-6.png" class="img-fluid" alt="">
-          <div class="portfolio-links">
-            <a href="assets/img/portfolio/boy-6.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
-            
-          </div>
-          <div class="portfolio-info">
-            <h4>Zoom-in</h4>
-            <p>Zoom-in</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-        <div class="portfolio-wrap">
-          <img src="assets/img/portfolio/boy-7.png" class="img-fluid" alt="">
-          <div class="portfolio-links">
-            <a href="assets/img/portfolio/boy-7.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
-            
-          </div>
-          <div class="portfolio-info">
-            <h4>Zoom-in</h4>
-            <p>Zoom-in</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-        <div class="portfolio-wrap">
-          <img src="assets/img/portfolio/boy-8.jpg" class="img-fluid" alt="">
-          <div class="portfolio-links">
-            <a href="assets/img/portfolio/boy-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
-            
-          </div>
-          <div class="portfolio-info">
-            <h4>Zoom-in</h4>
-            <p>Zoom-in</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-        <div class="portfolio-wrap">
-          <img src="assets/img/portfolio/boy-9.png" class="img-fluid" alt="">
-          <div class="portfolio-links">
-            <a href="assets/img/portfolio/boy-9.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
-            
-          </div>
-          <div class="portfolio-info">
-            <h4>Zoom-in</h4>
-            <p>Zoom-in</p>
+            <h4>WOLVERINE 29T</h4>
+            <p>21 Hi-Speed L-TWOO Gears</p>
           </div>
         </div>
       </div>
 
-      <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+      <div class="col-lg-4 col-md-6 portfolio-item filter-card columns mtb">
         <div class="portfolio-wrap">
-          <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+          <img src="assets/img/portfolio/mtb-2.jpg" class="img-fluid" alt="">
           <div class="portfolio-links">
-            <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bi bi-plus"></i></a>
+            <a href="assets/img/portfolio/mtb-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="DRAGSTER 27.5T"><i class="bi bi-plus"></i></a>
             
           </div>
           <div class="portfolio-info">
-            <h4>Zoom-in</h4>
-            <p>Zoom-in</p>
+            <h4>DRAGSTER 27.5T</h4>
+            <p>Fast & Dynamic Disk Brakes</p>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+      <div class="col-lg-4 col-md-6 portfolio-item filter-card columns mtb">
         <div class="portfolio-wrap">
-          <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+          <img src="assets/img/portfolio/mtb-3.jpg" class="img-fluid" alt="">
           <div class="portfolio-links">
-            <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bi bi-plus"></i></a>
+            <a href="assets/img/portfolio/mtb-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="SPITFIRE 27.5T"><i class="bi bi-plus"></i></a>
             
           </div>
           <div class="portfolio-info">
-            <h4>Zoom-in</h4>
-            <p>Zoom-in</p>
+            <h4>SPITFIRE 27.5T</h4>
+            <p>18" Ultra Light Alloy Frame.</p>
           </div>
         </div>
       </div>
+    <!-- MTB Ended-->
 
-      <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-        <div class="portfolio-wrap">
-          <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-          <div class="portfolio-links">
-            <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bi bi-plus"></i></a>
-            
-          </div>
-          <div class="portfolio-info">
-            <h4>Zoom-in</h4>
-            <p>Zoom-in</p>
-          </div>
+    <!-- Fat Tyre -->
+    <div class="col-lg-4 col-md-6 portfolio-item filter-card columns ftb">
+      <div class="portfolio-wrap">
+        <img src="assets/img/portfolio/ftb-1.jpg" class="img-fluid" alt="">
+        <div class="portfolio-links">
+          <a href="assets/img/portfolio/ftb-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="REGIONX 26T - BLUE ORANGE"><i class="bi bi-plus"></i></a>
+          
+        </div>
+        <div class="portfolio-info">
+          <h4>REGIONX 26T - BLUE ORANGE</h4>
+          <p>Active Suspension| Disc Brakes | 3" Nylon Tires</p>
         </div>
       </div>
+    </div>
 
-      <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-        <div class="portfolio-wrap">
-          <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-          <div class="portfolio-links">
-            <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bi bi-plus"></i></a>
-            
-          </div>
-          <div class="portfolio-info">
-            <h4>Zoom-in</h4>
-            <p>Zoom-in</p>
-          </div>
+    <div class="col-lg-4 col-md-6 portfolio-item filter-card columns ftb">
+      <div class="portfolio-wrap">
+        <img src="assets/img/portfolio/ftb-2.jpg" class="img-fluid" alt="">
+        <div class="portfolio-links">
+          <a href="assets/img/portfolio/ftb-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="SKULLRIDER 24T - WHITE"><i class="bi bi-plus"></i></a>
+          
+        </div>
+        <div class="portfolio-info">
+          <h4>SKULLRIDER 24T - WHITE</h4>
+          <p>3" fat tires, zero-shock suspension, fast acting disc brakes</p>
         </div>
       </div>
+    </div>
 
-      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-        <div class="portfolio-wrap">
-          <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-          <div class="portfolio-links">
-            <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
-            
-          </div>
-          <div class="portfolio-info">
-            <h4>Zoom-in</h4>
-            <p>Zoom-in</p>
-          </div>
+    <div class="col-lg-4 col-md-6 portfolio-item filter-card columns ftb">
+      <div class="portfolio-wrap">
+        <img src="assets/img/portfolio/ftb-3.jpg" class="img-fluid" alt="">
+        <div class="portfolio-links">
+          <a href="assets/img/portfolio/ftb-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="VANTAGEX 27.5T - BLACK YELLOW"><i class="bi bi-plus"></i></a>
+          
+        </div>
+        <div class="portfolio-info">
+          <h4>VANTAGEX 27.5T - BLACK YELLOW</h4>
+          <p>Active Suspension|Shimano Gears|Disc Brakes</p>
         </div>
       </div>
+    </div>
+  <!-- Fat Tyre Ended-->
 
-    </div> -->
+  
+    <!-- HYbrid City Tyre -->
+    <div class="col-lg-4 col-md-6 portfolio-item filter-card columns city">
+      <div class="portfolio-wrap">
+        <img src="assets/img/portfolio/city-1.jpg" class="img-fluid" alt="">
+        <div class="portfolio-links">
+          <a href="assets/img/portfolio/city-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="BLOODWING 700C"><i class="bi bi-plus"></i></a>
+          
+        </div>
+        <div class="portfolio-info">
+          <h4>BLOODWING 700C</h4>
+          <p>Fast & Dynamic Disk Brakes</p>
+        </div>
+      </div>
+    </div>
 
+    <div class="col-lg-4 col-md-6 portfolio-item filter-card columns city">
+      <div class="portfolio-wrap">
+        <img src="assets/img/portfolio/city-2.jpg" class="img-fluid" alt="">
+        <div class="portfolio-links">
+          <a href="assets/img/portfolio/city-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="WAYFARER 700C - MAROON YELLOW"><i class="bi bi-plus"></i></a>
+          
+        </div>
+        <div class="portfolio-info">
+          <h4>WAYFARER 700C - MAROON YELLOW</h4>
+          <p>Hi-Traction Tires| Disc Brakes | Alloy Rims</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 portfolio-item filter-card columns city">
+      <div class="portfolio-wrap">
+        <img src="assets/img/portfolio/city-3.jpg" class="img-fluid" alt="">
+        <div class="portfolio-links">
+          <a href="assets/img/portfolio/city-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="TROOPER 700C - BLACK"><i class="bi bi-plus"></i></a>
+        </div>
+        <div class="portfolio-info">
+          <h4>TROOPER 700C - BLACK</h4>
+          <p>21 Hi-Speed Shimano Gears</p>
+        </div>
+      </div>
+    </div>
+  <!-- Hybrid City Tyre Ended-->
+
+  
+    <!-- Kids Tyre -->
+    <div class="col-lg-4 col-md-6 portfolio-item filter-card columns kids">
+      <div class="portfolio-wrap">
+        <img src="assets/img/portfolio/kids-1.jpg" class="img-fluid" alt="">
+        <div class="portfolio-links">
+          <a href="assets/img/portfolio/kids-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="FIGO 16T - BLUE YELLOW"><i class="bi bi-plus"></i></a>
+        </div>
+        <div class="portfolio-info">
+          <h4>FIGO 16T - BLUE YELLOW</h4>
+          <p>Full chain guard, non-toxic paint, quick release clip </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 portfolio-item filter-card columns kids">
+      <div class="portfolio-wrap">
+        <img src="assets/img/portfolio/kids-2.jpg" class="img-fluid" alt="">
+        <div class="portfolio-links">
+          <a href="assets/img/portfolio/kids-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="FRENZY 16T - RED BLACK"><i class="bi bi-plus"></i></a>
+          
+        </div>
+        <div class="portfolio-info">
+          <h4>FRENZY 16T - RED BLACK</h4>
+          <p>Life-long durability of carbon steel, safety of caliper brakes</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 portfolio-item filter-card columns kids">
+      <div class="portfolio-wrap">
+        <img src="assets/img/portfolio/kids-3.jpg" class="img-fluid" alt="">
+        <div class="portfolio-links">
+          <a href="assets/img/portfolio/kids-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="JUSTICE LEAGUE 14T - RED YELLOW"><i class="bi bi-plus"></i></a>
+          
+        </div>
+        <div class="portfolio-info">
+          <h4>JUSTICE LEAGUE 14T - RED YELLOW</h4>
+          <p>Caliper brakes | Knobby Tires |Sturdy Rims Tires</p>
+        </div>
+      </div>
+    </div>
+  <!-- Kids Tyre Ended-->
+
+  
+    <!-- Road Tyre -->
+    <div class="col-lg-4 col-md-6 portfolio-item filter-card columns road">
+      <div class="portfolio-wrap">
+        <img src="assets/img/portfolio/road-1.jpg" class="img-fluid" alt="">
+        <div class="portfolio-links">
+          <a href="assets/img/portfolio/road-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="TRACER R14 - 700C - BLACK YELLOW"><i class="bi bi-plus"></i></a>
+          
+        </div>
+        <div class="portfolio-info">
+          <h4>TRACER R14 - 700C - BLACK YELLOW</h4>
+          <p>Drop Down Alloy Handlebar</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 portfolio-item filter-card columns road">
+      <div class="portfolio-wrap">
+        <img src="assets/img/portfolio/road-2.jpg" class="img-fluid" alt="">
+        <div class="portfolio-links">
+          <a href="assets/img/portfolio/road-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="REVELATOR LISSE PRO"><i class="bi bi-plus"></i></a>
+          
+        </div>
+        <div class="portfolio-info">
+          <h4>REVELATOR LISSE PRO</h4>
+          <p>Made for perfect aerodynamics and takes you right into speed rush.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 portfolio-item filter-card columns road">
+      <div class="portfolio-wrap">
+        <img src="assets/img/portfolio/road-3.jpg" class="img-fluid" alt="">
+        <div class="portfolio-links">
+          <a href="assets/img/portfolio/road-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="TRACER 700C - ARMY GREEN"><i class="bi bi-plus"></i></a>
+          
+        </div>
+        <div class="portfolio-info">
+          <h4>TRACER 700C - ARMY GREEN</h4>
+          <p>Lightweight Hi-tensile Steel Frame</p>
+        </div>
+      </div>
+    </div>
+  <!-- Road Tyre Ended-->
   </div>
-</section><!-- End Portfolio Section -->
+</section> 
+
+<!-- End Portfolio Section -->
+
+<!-- Proud Customer Section -->
+  <section id="proud-customer">
+
+  <div class="cy_store_wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <h1 class="cy_heading_proud">Our Proud Customer</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <div class="cy_store_slider">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="cy_store_box">
+                                <div class="cy_store_img">
+                                    <a href="https://m.facebook.com/story.php?story_fbid=pfbid02BjJx4wHkiM3SjDqLmnFaN4gugbpt5pt67JhR9vnarcVbgmZUjg4QQn3HX4ksM5Wsl&id=100069719330059" target="_blank"><img src="assets//img/store/1.jpg" alt="store" class="img-fluid"></a>
+                                    <!-- <div class="cy_store_img_overlay">
+                                        <p>Sale</p>
+                                    </div> -->
+                                </div>
+                                <div class="cy_store_data">
+                                    <div class="cy_store_text">
+                                        <h3><a href="https://m.facebook.com/story.php?story_fbid=pfbid02BjJx4wHkiM3SjDqLmnFaN4gugbpt5pt67JhR9vnarcVbgmZUjg4QQn3HX4ksM5Wsl&id=100069719330059" target="_blank">Dr. Gupta Sir</a></h3>
+                                        <ul>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star-half-o" aria-hidden="true"></i></li>
+                                        </ul>
+                                    </div>
+                                    <a href="https://wa.me/9175747262" class="cy_button" data-hover="Enquire Now"><span>Hercules Montra Downtown</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="cy_store_box">
+                                <div class="cy_store_img">
+                                    <a href="https://m.facebook.com/story.php?story_fbid=pfbid0BD4TwFmSpvM5uH3ArRuZiYzVh2ykVXJAqtbxqo5ivFAGfCdmettpPDUE2UCah6Ktl&id=100069719330059" target="_blank"><img src="assets/img/store/2.jpg" alt="store" class="img-fluid"></a>
+                                </div>
+                                <div class="cy_store_data">
+                                    <div class="cy_store_text">
+                                        <h3><a href="https://m.facebook.com/story.php?story_fbid=pfbid0BD4TwFmSpvM5uH3ArRuZiYzVh2ykVXJAqtbxqo5ivFAGfCdmettpPDUE2UCah6Ktl&id=100069719330059" target="_blank">Dr. Metange Sir</a></h3>
+                                        <ul>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        </ul>
+                                    </div>
+                                    <a href="https://wa.me/9175747262" class="cy_button" data-hover="Enquire Now"><span>Ninety One Meraki</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="cy_store_box">
+                                <div class="cy_store_img">
+                                    <a href="https://m.facebook.com/story.php?story_fbid=pfbid0K2VyuVnbadS5YSh8sQkqKM6Pc57G3FQ7mDCB9456wDzDpz3GCqP8HA5mxDSUTGRnl&id=100069719330059" target="_blank"><img src="assets/img/store/3.jpg" alt="store" class="img-fluid"></a> 
+                                </div>
+                                <div class="cy_store_data">
+                                    <div class="cy_store_text">
+                                        <h3><a href="https://m.facebook.com/story.php?story_fbid=pfbid0K2VyuVnbadS5YSh8sQkqKM6Pc57G3FQ7mDCB9456wDzDpz3GCqP8HA5mxDSUTGRnl&id=100069719330059" target="_blank">Mr Reddy sir</a></h3>
+                                        <ul>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star-half-o" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        </ul>
+                                    </div>
+                                    <a href="https://wa.me/9175747262" class="cy_button" data-hover="Enquire Now"><span>Hero Lectro E-Bike</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="cy_store_box">
+                                <div class="cy_store_img">
+                                    <a href="https://m.facebook.com/story.php?story_fbid=pfbid0PTUKeNgJ2r2g6hManYbvkh9hN8GwF2RzvCkdTnL4JEBUrHdzDr7Na4ceP71t7SWXl&id=100069719330059" target="_blank"><img src="assets/img/store/4.jpg" alt="store" class="img-fluid"></a>
+                                    <!-- <div class="cy_store_img_overlay">
+                                        <p>Sale</p>
+                                    </div> -->
+                                </div>
+                                <div class="cy_store_data">
+                                    <div class="cy_store_text">
+                                        <h3><a href="https://m.facebook.com/story.php?story_fbid=pfbid0PTUKeNgJ2r2g6hManYbvkh9hN8GwF2RzvCkdTnL4JEBUrHdzDr7Na4ceP71t7SWXl&id=100069719330059" target="_blank">Dr Mohammad Balighuddin sir</a></h3>
+                                        <ul>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star-half-o" aria-hidden="true"></i></li>
+                                        </ul>
+                                    </div>
+                                    <a href="https://wa.me/9175747262" class="cy_button" data-hover="Enquire Now"><span>Giant Roam 4</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="cy_store_box">
+                                <div class="cy_store_img">
+                                    <a href="https://m.facebook.com/story.php?story_fbid=pfbid031sp6P9ry8HGCZmP1QeyTNaXw3EGZfQas2yASVANLcsmaeViQtXAmSNms4qiptquRl&id=100069719330059" target="_blank"><img src="assets/img/store/5.jpg" alt="store" class="img-fluid"></a>
+                                </div>
+                                <div class="cy_store_data">
+                                    <div class="cy_store_text">
+                                        <h3><a href="https://m.facebook.com/story.php?story_fbid=pfbid031sp6P9ry8HGCZmP1QeyTNaXw3EGZfQas2yASVANLcsmaeViQtXAmSNms4qiptquRl&id=100069719330059" target="_blank">Mr Chopade sir</a></h3>
+                                        <ul>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                        </ul>
+                                    </div>
+                                    <a href="https://wa.me/9175747262" class="cy_button" data-hover="Enquire Now"><span>Ninety One Meraki</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+ <!-- Proud Customer End -->
+
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services section-bg">
@@ -989,6 +996,76 @@ GAURAKSHAN ROAD, AKOLA<br/>
       setTimeout(carousel, 2000); // Change image every 2 seconds
     }
     </script>
+
+    
+<script>
+  filterSelection("e-bike")
+  function filterSelection(c) {
+    var x, i;
+    x = document.getElementsByClassName("columns");
+    if (c == "all") c = "";
+    for (i = 0; i < x.length; i++) {
+      w3RemoveClass(x[i], "show");
+      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    }
+  }
+  
+  function w3AddClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+    }
+  }
+  
+  function w3RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);     
+      }
+    }
+    element.className = arr1.join(" ");
+  }
+  
+  
+  // Add active class to the current button (highlight it)
+  var btnContainer = document.getElementById("myBtnContainer");
+  var btns = btnContainer.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function(){
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }
+  </script>
+  
+
+ <!--scripts start Added for Proud Customer Section-->
+ <script src="js/jquery.js"></script>
+ <script src="js/tether.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+ <script src="js/jquery.countTo.js"></script>
+ <script src="js/appear.js"></script>
+ <script src="js/wow.js"></script>
+ <script src="js/plugin/owl/owl.carousel.min.js"></script>
+ <script src="js/plugin/magnific/jquery.magnific-popup.min.js"></script>
+ <!--Revolution slider js-->
+ <script src="js/plugin/revolution/js/jquery.themepunch.revolution.min.js"></script>
+ <script src="js/plugin/revolution/js/jquery.themepunch.tools.min.js"></script>
+ <script src="js/plugin/revolution/js/revolution.extension.navigation.min.js"></script>
+ <script src="js/plugin/revolution/js/revolution.extension.slideanims.min.js"></script>
+ <script src="js/plugin/revolution/js/revolution.extension.layeranimation.min.js"></script>
+ <script src="js/plugin/revolution/js/revolution.extension.parallax.min.js"></script>
+ <script src="js/plugin/revolution/js/revolution.extension.kenburn.min.js"></script>
+ <script src="js/jquery.nice-select.min.js"></script>
+ <script src="js/custom.js"></script>
+ <!--scripts start Added for Proud Customer Section Ended-->
+
 
 </body>
 
